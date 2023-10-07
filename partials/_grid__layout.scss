@@ -1,0 +1,63 @@
+
+
+
+.grid__layout {
+    display: grid;
+    height: 90vh;
+    /* grid-template-columns: 70% auto; 
+    grid-template-rows: 20% 10% 60% auto; */
+    /* justify-content: ; */
+    /* grid-template-rows: 100px 80px 120px auto; */
+    /* grid-template-columns: 50% 20% auto;
+    grid-template-rows: 100px 80px 120px auto; */
+    width: 95%;
+    margin: 5% auto;
+    background-color: aquamarine;
+    border: 3px solid red;
+    grid-template-areas: 'title title title'
+                        'menu menu menu'
+                        'content content sidebar'
+                        'footer footer footer';   
+    grid-template-rows: 20% 10% auto 10%;
+    
+
+}
+
+.container-h1 {
+    /* grid-column: 1 / span 3; starts from column 1 and expands 3 times.
+    same can be done using grid-row: ; */
+
+    grid-area: title;
+    background-color: rgb(231, 163, 74);
+    color:aliceblue;
+    font-size: 4rem;
+    text-align: center;
+}
+.menu {
+    grid-area: menu;
+    background-color: rgb(199, 147, 78);
+    color:aliceblue;
+    font-size: 4rem;
+    text-align: center;
+}
+.content {
+    grid-area: content;
+    background-color: rgb(136, 133, 129);
+    color:aliceblue;
+    font-size: 4rem;
+    text-align: center;
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(251, 144, 5);
+    color:aliceblue;
+    font-size: 4rem;
+    text-align: center;
+}
+.footer {
+    grid-area: footer;
+    background-color: rgb(143, 100, 44);
+    color:aliceblue;
+    font-size: 4rem;
+    text-align: center;    
+}

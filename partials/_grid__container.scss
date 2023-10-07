@@ -1,0 +1,14 @@
+
+
+.grid__container {
+    max-width: 160rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+   /*  grid-template-columns: repeat(2, minmax(550px, 1fr)); */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}

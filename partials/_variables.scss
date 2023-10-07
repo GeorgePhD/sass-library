@@ -1,0 +1,92 @@
+
+//themes colors
+$primary: rgb(76, 76, 252);
+$secondary: rgb(4, 223, 4);
+$error: rgb(251, 25, 25);
+$info: rgb(194, 194, 6);
+$blue: blue;
+$red: red;
+$green: green;
+$yellow: yellow;
+$purple: purple;
+$orange: orange;
+$grey: grey;
+
+//color palette
+$colors: (
+    'primary': $primary,
+    'secondary': $secondary,
+    'error': $error,
+    'info': $info,
+    'blue': $blue,
+    'red': $red,
+    'green': $green,
+    'yellow': $yellow,
+    'purple': $purple,
+    'orange': $orange,
+    'grey': $grey,
+    'black': black,
+    'white': white,
+);
+
+//background-colors
+$bg-primary: rgb(76, 76, 252);
+$bg-secondary: rgb(4, 223, 4);
+$bg-error: rgb(251, 25, 25);
+$bg-info: rgb(194, 194, 6);
+$bg-blue: blue;
+$bg-red: red;
+$bg-green: green;
+$bg-yellow: yellow;
+$bg-purple: purple;
+$bg-orange: orange;
+$bg-grey: grey;
+
+//spacing
+$base-padding: 1rem;
+$sm-padding: $base-padding / 1.5;
+$md-padding: $base-padding * 1.25;
+$lg-padding: $base-padding * 1.5;
+$xl-padding: $base-padding * 1.75;
+$xxl-padding: $base-padding * 2;
+$xxxl-padding: $base-padding * 3;
+$base-margin: 1rem;
+$sm-margin: $base-margin / 2;
+$md-margin: $base-margin * 1.25;
+$lg-margin: $base-margin * 1.5;
+$xl-margin: $base-margin * 1.75;
+$xxl-margin: $base-margin * 2;
+$xxxl-margin: $base-margin * 3;
+
+//borders
+$base-border-thickness: 0.1rem;
+$base-border-radius: 1rem;
+$sm-border-radius: $base-border-radius / 5;
+$md-border-radius: $base-border-radius * 1.25;
+$lg-border-radius: $base-border-radius * 1.5;
+$xl-border-radius: $base-border-radius * 2;
+$xxl-border-radius: $base-border-radius * 3;
+$xxxl-border-radius: $base-border-radius * 4;
+
+//box-shadow
+$base-box-shadow: 3px 3px 5px 2px rgb(163, 163, 163);
+
+//font-sizes
+$base-font-size: 1.6rem;
+$sm-font-size: $base-font-size / 1.15;
+$md-font-size: $base-font-size * 1.7;
+$lg-font-size: $base-font-size * 2;
+$xl-font-size: $base-font-size * 2.5;
+$xxl-font-size: $base-font-size * 3;
+$xxxl-font-size: $base-font-size * 4;
+$title: 4.5rem;
+$subtitle: 3.5rem;
+$h3-font-size: 3rem;
+$h4-font-size: 2rem;
+
+
+
+
+
+
+

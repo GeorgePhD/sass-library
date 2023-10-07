@@ -1,0 +1,20 @@
+//variables and functions
+@import './partials/variables';
+
+
+//base and layout
+@import './partials/reset';
+@import './partials/layout';
+@import './partials/grid__layout';
+@import './partials/grid__container';
+
+//colors
+@import './partials/colors';
+@import './partials/classes';
+
+//components(buttons, cards, navbar)
+@import './partials/buttons';
+@import './partials/card';
+
+
+//utilities (margin, padding, opacity, etc)

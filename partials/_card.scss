@@ -1,0 +1,28 @@
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    padding: $md-padding;
+    justify-content: center;
+}
+.card {
+    flex-basis: 30%;
+    padding: $base-padding;
+    border: $base-border-thickness solid #ddd;
+    box-shadow: $base-box-shadow;
+    border-radius: $sm-border-radius;
+
+    .card-title {
+        font-size: $base-font-size;
+        padding-bottom: $base-padding;
+        font-weight: bold;
+    }
+
+    .card-text {
+        font-size: $base-font-size;
+    }
+    .card-link {
+        text-decoration: line-through;
+    }
+}
+
