@@ -1,6 +1,6 @@
 # librería sass para uso personal
 
-### npm install -g sass 
+### npm **install** -g sass 
 
 watch individual files = sass --watch input.scss output.css
 
